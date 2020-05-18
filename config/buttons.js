@@ -2,31 +2,31 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCompass,
+  faAngleDoubleLeft,
   faMapMarkerAlt,
   faUser,
-  faShoppingCart
+  faAddressBook
 } from "@fortawesome/free-solid-svg-icons";
 
 const navButtons = [
   {
-    label: "Dashboard",
-    path: "/",
-    icon: <FontAwesomeIcon icon={faCompass} />
+    label: "Projects",
+    path: "/projects",
+    icon: <FontAwesomeIcon icon={faAngleDoubleLeft} />
   },
   {
-    label: "Docs",
-    path: "/",
+    label: "Articles",
+    path: "/articles",
     icon: <FontAwesomeIcon icon={faMapMarkerAlt} />
   },
   {
-    label: "Wiki",
-    path: "/",
-    icon: <FontAwesomeIcon icon={faShoppingCart} />
+    label: "Companies",
+    path: "/companies",
+    icon: <FontAwesomeIcon icon={faAddressBook} />
   },
   {
-    label: "Profile",
-    path: "/",
+    label: "Expertise",
+    path: "/expertise",
     icon: <FontAwesomeIcon icon={faUser} />
   }
 ];

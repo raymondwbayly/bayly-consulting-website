@@ -1,12 +1,36 @@
+import React from 'react';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+
 import Layout from "../components/Layout";
-import WebCard from '../components/WebCard';
+
 
 const IndexView = () => (
   <Layout>
-    <br />
-    <WebCard title="Welcome to the REACT Seed">This is the content on the welcome card</WebCard>
-    <br />
-    <br />
+  <div className="{flexGrow: 1}">
+  <Grid container spacing={3}>
+    <Grid item xs>
+      <Paper className="{padding: 2,textAlign: 'center', color: black}">xs</Paper>
+    </Grid>
+    <Grid item xs>
+      <Paper className="{padding: 2,textAlign: 'center', color: black}">xs</Paper>
+    </Grid>
+    <Grid item xs>
+      <Paper className="{padding: 2,textAlign: 'center', color: black}">xs</Paper>
+    </Grid>
+  </Grid>
+  <Grid container spacing={3}>
+    <Grid item xs>
+      <Paper className="{padding: 2,textAlign: 'center', color: black}">xs</Paper>
+    </Grid>
+    <Grid item xs={6}>
+      <Paper className="{padding: 2,textAlign: 'center', color: black}">xs=6</Paper>
+    </Grid>
+    <Grid item xs>
+      <Paper className="{padding: 2,textAlign: 'center', color: black}">xs</Paper>
+    </Grid>
+  </Grid>
+</div>
   </Layout>
 );
 

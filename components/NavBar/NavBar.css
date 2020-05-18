@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:800|Merriweather+Sans|Share+Tech+Mono");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 .NavBar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,10 +12,10 @@
   height: 60px;
   width: 100%;
   padding: 5px 0;
-  background: #FFFFFF;
+  background: #BDBDBD;
   font-family: "Merriweather Sans", sans-serif;
   font-size: 22px;
-  color: #A1A1A1;
+  color: #757575;
   -webkit-box-shadow: 0px -2px 15px rgba(50, 50, 50, 0.45);
           box-shadow: 0px -2px 15px rgba(50, 50, 50, 0.45);
 }
@@ -23,6 +24,6 @@
   text-decoration: none;
 }
 .NavBar .active {
-  color: #FA4141;
+  color: #448AFF;
 }
 /*# sourceMappingURL=NavBar.css.map */

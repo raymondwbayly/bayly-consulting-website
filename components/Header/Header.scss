@@ -10,14 +10,13 @@
 
   padding: 0 20px;
 
-  font-family: $Beo-font;
-  font-size: $Beo-size;
-  font-weight: $Beo-weight;
-  color: $Beo-color;
+  font-family: $header-font;
+  font-size: $header-font-size;
+  color: $primary-color-text;
   letter-spacing: 10px;
   text-transform: uppercase;
 
-  background: $highlight;
+  background: $primary-color-dark;
 
   cursor: pointer;
 

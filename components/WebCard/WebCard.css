@@ -12,10 +12,10 @@
   height: 100%;
   width: 100%;
   padding: 50px 0;
-  background: #FFFFFF;
+  background: #607D8B;
   font-family: "Merriweather Sans", sans-serif;
   font-size: 22px;
-  color: #A1A1A1;
+  color: #212121;
   -webkit-box-shadow: 0px -2px 15px rgba(50, 50, 50, 0.45);
           box-shadow: 0px -2px 15px rgba(50, 50, 50, 0.45);
 }
@@ -23,6 +23,6 @@
   font-size: 20px;
   font-weight: 900;
   font-family: "Merriweather Sans", sans-serif;
-  color: #A1A1A1;
+  color: #212121;
 }
 /*# sourceMappingURL=WebCard.css.map */

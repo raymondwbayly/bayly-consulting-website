@@ -15,11 +15,10 @@
   padding: 0 20px;
   font-family: "Raleway", sans-serif;
   font-size: 30px;
-  font-weight: 300;
-  color: #EEEEEE;
+  color: #FFFFFF;
   letter-spacing: 10px;
   text-transform: uppercase;
-  background: #FA4141;
+  background: #455A64;
   cursor: pointer;
 }
 .Header .titleIcon {

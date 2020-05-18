@@ -9,12 +9,12 @@ import "../../scss/index.scss";
 import navButtons from "../../config/buttons";
 
 const Layout = props => {
-  const appTitle = `React Seed`;
+  const appTitle = `BaylyConsulting`;
 
   return (
     <div className="Layout">
       <Head>
-        <title>React SEED</title>
+        <title>BAYLY CONSULTING</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
       </Head>
