@@ -8,7 +8,7 @@ import "./WebCard.scss";
 
 const WebCard = props => (
   <Paper elevation={5} className="paperContainer">
-    <div className="titleDiv">{props.title}</div>
+    <div><img src="{props.titleLogo}"/></div><div className="titleDiv">{props.title}</div>
 <div>{props.children}</div>
     <div>footer buttons</div>
   </Paper>
