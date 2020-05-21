@@ -1,3 +1,4 @@
+@import "../../theme/theme";
 
 .NavButton {
   display: flex;
@@ -11,6 +12,7 @@
 
   .Icon {
     font-size: 20px;
+    color: $primary-color-dark;
   }
 
   .Label {
