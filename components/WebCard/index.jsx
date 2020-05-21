@@ -12,19 +12,26 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./WebCard.scss";
 
+
 const WebCard = props => (
-  <Card>
-    <CardActionArea>
-        <CardMedia image={props.titleBanner} title={props.title}/>
+  <Card className={{maxWidth: 345}}>
+      <CardActionArea>
+        <CardMedia
+          className={{height: 140}}
+          image="./projects-banner.png"
+          title="TItle"
+        />
         <CardContent>
-        <Typography gutterBottom variant="h5" component="h2">
-            {props.title}
+          <Typography gutterBottom variant="h5" component="h2">
+            Lizard
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            {props.children}
+            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+            across all continents except Antarctica
           </Typography>
         </CardContent>
-        <CardActions>
+      </CardActionArea>
+      <CardActions>
         <Button size="small" color="primary">
           Share
         </Button>
@@ -32,9 +39,7 @@ const WebCard = props => (
           Learn More
         </Button>
       </CardActions>
-    </CardActionArea>
-
-  </Card>
+    </Card>
 );
 
 export default WebCard;
