@@ -13,7 +13,7 @@ const IndexView = () => (
         <Grid item className="gridItem">
           <WebCard
             title="Card One"
-            titleLogo="./projects-icon.png"
+            titleBanner="projects-banner.png"
             moreLink="">
             Body Content
           </WebCard>

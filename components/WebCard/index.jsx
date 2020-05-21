@@ -1,17 +1,22 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./WebCard.scss";
 
 const WebCard = props => (
-  <Paper elevation={5} className="paperContainer">
-    <div><img src="{props.titleLogo}"/></div><div className="titleDiv">{props.title}</div>
-<div>{props.children}</div>
-    <div>footer buttons</div>
-  </Paper>
+  <Card>
+    <CardActionArea>
+        <CardMedia image={props.titleBanner}/>
+    </CardActionArea>
+
+  </CardMedia>
 );
 
 export default WebCard;
