@@ -1,15 +1,27 @@
-import React from 'react';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
+import React from "react";
+import Container from "@material-ui/core/Container";
+import Grid from "@material-ui/core/Grid";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Layout from "../components/Layout";
 
-
 const IndexView = () => (
   <Layout>
-  <div className="container">
-  Hell0
-</div>
+    <Container className="container">
+      <Grid container justify="center">
+          <Grid item className="gridItem">
+            HELLO
+          </Grid>
+          <Grid item className="gridItem">
+            HELLO
+          </Grid>
+          <Grid item className="gridItem">
+            HELLO
+          </Grid>
+          <Grid item className="gridItem">
+            HELLO
+          </Grid>
+      </Grid>
+    </Container>
   </Layout>
 );
 
