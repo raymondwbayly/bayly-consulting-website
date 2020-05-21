@@ -4,58 +4,59 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Layout from "../components/Layout";
+import WebCard from "../components/WebCard";
 
 const IndexView = () => (
   <Layout>
     <Container className="container">
       <Grid container justify="center">
         <Grid item className="gridItem">
-          <Paper elevation={5} className="paperContainer">
-            <div>TITLE</div>
-            <hr></hr>
-            <div>body</div>
-            <div>footer buttons</div>
-          </Paper>
+          <WebCard
+            title="Card One"
+            titleLogo=""
+            moreLink="">
+            Body Content
+          </WebCard>
         </Grid>
         <Grid item className="gridItem">
-          <Paper elevation={5} className="paperContainer">
-            <div>TITLE</div>
-            <hr></hr>
-            <div>body</div>
-            <div>footer buttons</div>
-          </Paper>
+          <WebCard
+            title="Card Two"
+            titleLogo=""
+            moreLink="">
+            Body Content
+          </WebCard>
         </Grid>
         <Grid item className="gridItem">
-          <Paper elevation={5} className="paperContainer">
-            <div>TITLE</div>
-            <hr></hr>
-            <div>body</div>
-            <div>footer buttons</div>
-          </Paper>
+          <WebCard
+            title="Card Three"
+            titleLogo=""
+            moreLink="">
+            Body Content
+          </WebCard>
         </Grid>
         <Grid item className="gridItem">
-          <Paper elevation={5} className="paperContainer">
-            <div>TITLE</div>
-            <hr></hr>
-            <div>body</div>
-            <div>footer buttons</div>
-          </Paper>
+          <WebCard
+            title="Card Four"
+            titleLogo=""
+            moreLink="">
+            Body Content
+          </WebCard>
         </Grid>
         <Grid item className="gridItem">
-          <Paper elevation={5} className="paperContainer">
-            <div>TITLE</div>
-            <hr></hr>
-            <div>body</div>
-            <div>footer buttons</div>
-          </Paper>
+          <WebCard
+            title="Card Five"
+            titleLogo=""
+            moreLink="">
+            Body Content
+          </WebCard>
         </Grid>
         <Grid item className="gridItem">
-          <Paper elevation={5} className="paperContainer">
-            <div>TITLE</div>
-            <hr></hr>
-            <div>body</div>
-            <div>footer buttons</div>
-          </Paper>
+          <WebCard
+            title="Card Six"
+            titleLogo=""
+            moreLink="">
+            Body Content
+          </WebCard>
         </Grid>
       </Grid>
     </Container>

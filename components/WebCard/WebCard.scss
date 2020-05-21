@@ -1,25 +1,21 @@
 @import "../../theme/theme";
 
-.LoginCard {
+.WebCard {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
 
-  height: 100%;
-  width: 100%;
-  padding: 50px 0;
-
-  background: $primary-color;
-
-  font-family: $core-font;
-  font-size: 22px;
-  color: $primary-text-color;
-
-  box-shadow: 0px -2px 15px rgba(50, 50, 50, 0.45);
-  .cardTitle {
-    font-size: 20px;
-    font-weight: 900;
-    font-family: $core-font;
-    color:$primary-text-color;
-  }
+.paperContainer {
+  width: 300px;
+  height: 250px;
+}
+.titleDiv {
+  padding:10px;
+  background-color: $primary-color-dark;
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: 800;
+  height: 40px;
+  color: $divider-color;
 }
